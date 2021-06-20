@@ -16,8 +16,8 @@ WORKDIR /build
 RUN git clone https://github.com/jarguel/rtl_433
 WORKDIR ./rtl_433
 
-ARG rtl433GitRevision=21.05
-RUN git checkout ${rtl433GitRevision}
+#ARG rtl433GitRevision=21.05
+#RUN git checkout ${rtl433GitRevision}
 WORKDIR ./build
 RUN cmake ..
 RUN make -j 4

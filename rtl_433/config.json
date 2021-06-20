@@ -1,6 +1,6 @@
 {
   "name": "rtl_433",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "slug": "rtl433_jarguel",
   "description": "Receive wireless sensor data via an SDR dongle and rtl_433 (jarguel's fork)",
   "url": "https://github.com/jarguel/rtl_433-hass-addons/tree/main/rtl_433",
